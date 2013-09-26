@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3607F28617F4E69E003886C6 /* leftside_shadow_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 3607F28517F4E69E003886C6 /* leftside_shadow_bg.png */; };
+		3681101317F50040002C7056 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3681101217F50040002C7056 /* README.md */; };
 		36BB27CB17F231C600808557 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36BB27CA17F231C600808557 /* Foundation.framework */; };
 		36BB27CD17F231C600808557 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36BB27CC17F231C600808557 /* CoreGraphics.framework */; };
 		36BB27CF17F231C600808557 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36BB27CE17F231C600808557 /* UIKit.framework */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		3607F28517F4E69E003886C6 /* leftside_shadow_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftside_shadow_bg.png; sourceTree = "<group>"; };
+		3681101217F50040002C7056 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		36BB27C717F231C600808557 /* MLNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36BB27CA17F231C600808557 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		36BB27CC17F231C600808557 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -87,6 +89,7 @@
 		36BB27BE17F231C600808557 = {
 			isa = PBXGroup;
 			children = (
+				3681101217F50040002C7056 /* README.md */,
 				36BB27D017F231C600808557 /* MLNavigation */,
 				36BB27E917F231C700808557 /* MLNavigationTests */,
 				36BB27C917F231C600808557 /* Frameworks */,
@@ -248,6 +251,7 @@
 			files = (
 				3607F28617F4E69E003886C6 /* leftside_shadow_bg.png in Resources */,
 				36BB27D517F231C600808557 /* InfoPlist.strings in Resources */,
+				3681101317F50040002C7056 /* README.md in Resources */,
 				36BB27FE17F236D200808557 /* leftside_shadow_bg@2x.png in Resources */,
 				36BB27DD17F231C600808557 /* Images.xcassets in Resources */,
 			);
