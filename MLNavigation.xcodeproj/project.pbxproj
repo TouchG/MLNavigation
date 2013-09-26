@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3607F28617F4E69E003886C6 /* leftside_shadow_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 3607F28517F4E69E003886C6 /* leftside_shadow_bg.png */; };
 		36BB27CB17F231C600808557 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36BB27CA17F231C600808557 /* Foundation.framework */; };
 		36BB27CD17F231C600808557 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36BB27CC17F231C600808557 /* CoreGraphics.framework */; };
 		36BB27CF17F231C600808557 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36BB27CE17F231C600808557 /* UIKit.framework */; };
@@ -19,6 +20,9 @@
 		36BB27E617F231C700808557 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36BB27CE17F231C600808557 /* UIKit.framework */; };
 		36BB27EE17F231C700808557 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36BB27EC17F231C700808557 /* InfoPlist.strings */; };
 		36BB27F017F231C700808557 /* MLNavigationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BB27EF17F231C700808557 /* MLNavigationTests.m */; };
+		36BB27FC17F233FC00808557 /* MLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BB27FB17F233FC00808557 /* MLNavigationController.m */; };
+		36BB27FE17F236D200808557 /* leftside_shadow_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36BB27FD17F236D200808557 /* leftside_shadow_bg@2x.png */; };
+		36BB280117F23E8300808557 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BB280017F23E8300808557 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3607F28517F4E69E003886C6 /* leftside_shadow_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftside_shadow_bg.png; sourceTree = "<group>"; };
 		36BB27C717F231C600808557 /* MLNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36BB27CA17F231C600808557 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		36BB27CC17F231C600808557 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +53,11 @@
 		36BB27EB17F231C700808557 /* MLNavigationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MLNavigationTests-Info.plist"; sourceTree = "<group>"; };
 		36BB27ED17F231C700808557 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		36BB27EF17F231C700808557 /* MLNavigationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLNavigationTests.m; sourceTree = "<group>"; };
+		36BB27FA17F233FC00808557 /* MLNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLNavigationController.h; sourceTree = "<group>"; };
+		36BB27FB17F233FC00808557 /* MLNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLNavigationController.m; sourceTree = "<group>"; };
+		36BB27FD17F236D200808557 /* leftside_shadow_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leftside_shadow_bg@2x.png"; sourceTree = "<group>"; };
+		36BB27FF17F23E8300808557 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		36BB280017F23E8300808557 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +117,13 @@
 		36BB27D017F231C600808557 /* MLNavigation */ = {
 			isa = PBXGroup;
 			children = (
+				36BB27F917F2339E00808557 /* Src */,
 				36BB27D917F231C600808557 /* AppDelegate.h */,
 				36BB27DA17F231C600808557 /* AppDelegate.m */,
 				36BB27DC17F231C600808557 /* Images.xcassets */,
 				36BB27D117F231C600808557 /* Supporting Files */,
+				36BB27FF17F23E8300808557 /* ViewController.h */,
+				36BB280017F23E8300808557 /* ViewController.m */,
 			);
 			path = MLNavigation;
 			sourceTree = "<group>";
@@ -142,6 +155,17 @@
 				36BB27EC17F231C700808557 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36BB27F917F2339E00808557 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				3607F28517F4E69E003886C6 /* leftside_shadow_bg.png */,
+				36BB27FD17F236D200808557 /* leftside_shadow_bg@2x.png */,
+				36BB27FA17F233FC00808557 /* MLNavigationController.h */,
+				36BB27FB17F233FC00808557 /* MLNavigationController.m */,
+			);
+			name = Src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +215,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Molon;
 				TargetAttributes = {
+					36BB27C617F231C600808557 = {
+						DevelopmentTeam = PDL85JB6BQ;
+					};
 					36BB27E117F231C700808557 = {
 						TestTargetID = 36BB27C617F231C600808557;
 					};
@@ -219,7 +246,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3607F28617F4E69E003886C6 /* leftside_shadow_bg.png in Resources */,
 				36BB27D517F231C600808557 /* InfoPlist.strings in Resources */,
+				36BB27FE17F236D200808557 /* leftside_shadow_bg@2x.png in Resources */,
 				36BB27DD17F231C600808557 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +269,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				36BB27DB17F231C600808557 /* AppDelegate.m in Sources */,
+				36BB27FC17F233FC00808557 /* MLNavigationController.m in Sources */,
+				36BB280117F23E8300808557 /* ViewController.m in Sources */,
 				36BB27D717F231C600808557 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,9 +390,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Long  Mu (WB4U6T5A2S)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Long  Mu (WB4U6T5A2S)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MLNavigation/MLNavigation-Prefix.pch";
 				INFOPLIST_FILE = "MLNavigation/MLNavigation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -372,9 +406,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Long  Mu (WB4U6T5A2S)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MLNavigation/MLNavigation-Prefix.pch";
 				INFOPLIST_FILE = "MLNavigation/MLNavigation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -441,6 +477,7 @@
 				36BB27F517F231C700808557 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36BB27F617F231C700808557 /* Build configuration list for PBXNativeTarget "MLNavigationTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +486,7 @@
 				36BB27F817F231C700808557 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
